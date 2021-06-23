@@ -1,0 +1,1 @@
+web: gunicorn prospertech.wsgi --log-file -

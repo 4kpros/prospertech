@@ -1,0 +1,213 @@
+
+
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root{
+
+    /*===== COLORS =====*/
+  --card-glass-color: linear-gradient(130deg,rgba(216, 212, 207, 0.8),rgba(255, 255, 255, 0.4));
+  --card-glass-stroke-color: #f2f2f2;
+  
+  --card-glass-cover-color: linear-gradient(130deg,rgba(245, 245, 245, 0.8),rgba(255, 255, 255, 0.6));
+  --card-glass-cover-stroke-color: #ffffff;
+
+  --tab-glass-cover-color: linear-gradient(130deg,rgba(245, 245, 245, 0.7),rgba(255, 255, 255, 0.4));
+  --tab-glass-cover-stroke-color: #ffffff;
+
+  --service-glass-cover-color: linear-gradient(130deg,rgba(245, 245, 245, 0.8),rgba(255, 255, 255, 0.6));
+  --top-glass-cover-color: linear-gradient(130deg,rgba(226, 226, 226, 0.7),rgba(255, 255, 255, 0.2));
+
+  --circle1-glass-cover-color: linear-gradient(90deg,rgb(255, 244, 230),rgba(255, 255, 255, 0));
+  --circle2-glass-cover-color: linear-gradient(-130deg,rgb(233, 233, 233),rgba(255, 255, 255, 0));
+
+  --footer-glass-color: linear-gradient(130deg,rgba(255, 136, 0, 0.5),rgba(255, 136, 0.5));
+
+  --body-color: linear-gradient(90deg,#fff9f1, #f8f8f8);
+  --main-color: #F8F8F8;
+
+  --primary-color: #ffffff;
+  --second-color: #000000;
+
+  --first-color: rgba(255, 136, 0);
+  --title-color: #000000;
+  --text-color: #333333;
+  --semi-text-color: #6b6969;
+  --text-hint-color: #949494;
+
+  /*===== TYPOGRAPHY =====*/
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: .938rem;
+  --h3-font-size: 1.125rem;
+  --small-font-size: .75rem;
+
+  --small-font-weight: 500;
+  --normal-font-weight: 600;
+  --semi-big-font-weight: 700;
+  --big-font-weight: 800;
+}
+.dark__theme{
+  /*===== COLORS =====*/
+  --card-glass-color: linear-gradient(130deg,rgba(43, 43, 43, 0.8),rgba(0, 0, 0, 0.4));
+  --card-glass-stroke-color: #747474;
+  
+  --card-glass-cover-color: linear-gradient(130deg,rgba(84, 84, 84, 0.9),rgba(0, 0, 0, 0.6));
+  --card-glass-cover-stroke-color: #616161;
+
+  --tab-glass-cover-color: linear-gradient(130deg,rgba(112, 112, 112, 0.7),rgba(153, 153, 153, 0.4));
+  --tab-glass-cover-stroke-color: #979797;
+
+  --service-glass-cover-color: linear-gradient(130deg, rgba(84, 84, 84, 0.9), rgba(0, 0, 0, 0.6));
+  --top-glass-cover-color: linear-gradient(130deg, rgba(80, 80, 80, 0.7), rgba(48, 48, 48, 0.2));
+  
+  --circle1-glass-cover-color: linear-gradient(90deg,rgb(46, 40, 32),rgba(0, 0, 0, 0));
+  --circle2-glass-cover-color: linear-gradient(-130deg,rgb(38, 38, 38),rgba(0, 0, 0, 0));
+
+  --footer-glass-color: linear-gradient(130deg,rgba(255, 136, 0, 0.5),rgba(255, 136, 0.5));
+
+  --body-color: linear-gradient(90deg,#1a1817, #000000);
+  --main-color: #10021d;
+
+  --primary-color: #000000;
+  --second-color: #ffffff;
+
+  --first-color: rgba(255, 136, 0);
+  
+  --title-color: #ffffff;
+  --text-color: #ededed;
+  --semi-text-color: #cacaca;
+  --text-hint-color: #afafaf;
+  
+/*===== TYPOGRAPHY =====*/
+  --body-font: 'Poppins', sans-serif;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .75rem;
+
+  --small-font-weight: 500;
+  --normal-font-weight: 600;
+  --semi-big-font-weight: 700;
+  --big-font-weight: 800;
+}
+
+@media screen and (min-width: 768px){
+    :root{
+      --normal-font-size: 1rem;
+      --h3-font-size: 1.25rem;
+      --small-font-size: .813rem;
+    }
+    .dark__theme{
+      --normal-font-size: 1rem;
+      --h3-font-size: 1.25rem;
+      --small-font-size: .813rem;
+    }
+}
+html { scroll-behavior: smooth; }
+*{
+  font-family: var(--body-font);
+  transition: .4s;
+  box-sizing: border-box;
+}
+.my-nav__title{
+  color: var(--first-color);
+  padding-top: 1rem;
+  text-shadow:0 0 5px rgb(255, 136, 0, .6);
+  font-weight: var(--big-font-weight);
+}
+.body__light__color{
+  background: var(--body-color);
+}
+
+.my-nav__title__last{
+  margin-left: 2em;
+  color: var(--primary-color);
+  text-shadow:0 0 5px var(--second-color);
+  font-weight: var(--big-font-weight);
+} 
+.my-home__scroll{
+  position: relative;
+  bottom: 5%;
+  text-decoration: none;
+  color: var(--first-color);
+  font-weight: var(--normal-font-weight);
+}
+.my-home__scroll-text{
+  color: var(--first-color);
+  margin-top: 2rem;
+  font-weight: var(--normal-font-weight);
+}
+.my-home__scroll-icon{
+  color: var(--first-color);
+}
+.my-home__img__container{
+  margin-top: 2rem;
+  width: 365px;
+  height: 365px;
+  background: var(--card-glass-color);
+  box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
+  border-radius: 50%;
+  overflow: hidden;
+  animation: animation__profile ease 0.8s infinite alternate-reverse;
+  backdrop-filter: blur(10px);
+  
+}
+.my-home__img{
+  max-width:100%;
+  max-height:100%;
+}
+.my-section{
+  padding-top: 10rem;
+}
+.my-section__head{
+  width: fit-content;
+}
+.my-section__name{
+  width: fit-content;
+  color: var(--title-color);
+  font-weight: var(--normal-font-weight);
+}
+.my-section__line__render{
+  height: 5px;
+  background-color: var(--first-color);
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+.nav__link{
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: var(--text-color);
+  font-weight: var(--normal-font-weight);
+}
+.nav__link:hover{
+  color: var(--first-color);
+}
+.my__nav__theme__toggle{
+  max-height: 50px;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: var(--text-color);
+  font-weight: var(--normal-font-weight);
+}
+.my__nav__theme__toggle:hover{
+  color: var(--first-color);
+}
+@media screen and (max-width: 768px){
+  .my-home__img__container{
+    width: 265px;
+    height: 265px;
+  }
+}
+
+@keyframes animation__profile {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

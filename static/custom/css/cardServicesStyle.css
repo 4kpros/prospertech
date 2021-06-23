@@ -1,0 +1,95 @@
+
+
+.my-card__service__glass{
+    position: relative;
+    padding: 2rem;
+    text-align: start;
+    background: var(--card-glass-color);
+    box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+}
+.my-card__service__data{
+    margin-bottom: 1.5rem;
+}
+.my-card__service__title{
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    margin-bottom: .25rem;
+    font-weight: var(--semi-big-font-weight);
+}
+.my-card__service__name{
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-bottom: .25rem;
+    font-weight: var(--normal-font-weight);
+}
+.my-card__service__profession{
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--normal-font-weight);
+}
+.my-card__service__text{
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--normal-font-weight);
+}
+.my-card__service__social{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.my-card__service__link{
+    display: inline;
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--normal-font-weight);
+}
+.my-card__service__link:hover{
+    color: var(--first-color);
+}
+
+.my__service{
+    padding: .5rem;
+}
+.my__content{
+    border-radius: 1rem;
+    background: var(--card-glass-cover-color);
+    box-shadow: inset 1px 1px 1px var(--card-glass-cover-stroke-color), inset -1px -1px 1px var(--card-glass-cover-stroke-color);
+    height: 300px;
+}
+.my__content:hover{
+}
+.my__background{
+    text-overflow: ellipsis;
+    background: var(--top-glass-cover-color);
+    border-radius: 1rem 1rem 0 0;
+    padding: 1.5rem;
+    font-weight: var(--normal-font-weight);
+}
+.my__service_img{
+    width: auto;
+    height: auto;
+    max-width:70px;
+    max-height:35px;
+}
+.my__bottom{
+    padding: 1.5rem;
+}
+.my__service__title{
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-top: 2rem;
+    font-weight: var(--normal-font-weight);
+}
+.my_service_text{
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--normal-font-weight);
+}
+.my__service__subtitle{
+    font-size: var(--small-font-size);
+    color:  var(--text-hint-color);
+    text-overflow: ellipsis;
+    font-weight: var(--normal-font-weight);
+}

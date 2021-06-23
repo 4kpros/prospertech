@@ -1,0 +1,369 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle1"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="my__circle3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="my__circle4"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle5"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle6"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle7"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle8"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle9"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my__circle10"></div>
+            </div>
+        </div>
+    </div>
+    <div class="my__bubble">
+        <ul class="my__bubble__ul">
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+            <li class="my__bubble__li"></li>
+        </ul>
+    </div>
+    <div class="container">
+        <row class="row">
+            <section class="my-card col-md-6">
+                <div class="my-card__container my-bd-container">
+                    <div class="my-card__glass">
+                        <div class="my-card__data">
+                            <h2 class="my-card__title">Hi! I'am 
+                                <span class="my-card__name">ABOUAR PROSPER</span>
+                            </h2>
+                            <p class="my-card__name">Currently student in Master 1</p>
+                        </div>
+                        <div class="my-card_social">
+                            <a href="https://twitter.com/4kprosZ" target="_blank" rel="noopener noreferrer" class="my-card__link">
+                                <i class='bx bxl-twitter bx-flashing'></i>
+                            </a>
+                            <a href="https://github.com/4kpros" target="_blank" rel="noopener noreferrer" class="my-card__link">
+                                <i class='bx bxl-github bx-spin'></i>
+                            </a>
+                        </div>
+                        <p class="my-card__text">
+                            <br><span class="my-card__name">Android developper :</span> Android Java, Kotlin, Flutter
+                            <br><span class="my-card__name">Web developper :</span> Django, PHP, Vues.js, HTML, CSS, JavaScript
+                            <br><span class="my-card__name">Game developper & Game designer :</span> Unity3D, Godot Engine
+                            <br><span class="my-card__name">UI designer :</span> Adobe XD & Illustrator, Figma
+                        </p>
+                        <a href="#contact__row" class="my-card__button">Hire me</a>
+                        <a href="#" class="my-card__button">Look CV</a>
+                    </div>
+                </div>
+            </section>
+            <section class="home col-md-6 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center my-home__img__container">
+                    <img class="my-home__img" src="{% static 'medias/images/png/profile.png' %}" alt="">
+                </div>
+            </section>
+        </row>
+
+        <row class="row" id="scroll__down__row">
+            <section class="col-md-6">
+                <a href="#services__row" class="my-home__scroll">
+                    <h3 class="my-home__scroll-text">Look my services</h3>
+                    <i class='bx bxs-down-arrow-alt bx-fade-down my-home__scroll-icon' ></i>
+                </a>
+            </section>
+        </row>
+
+        <row class="row" style="margin-top: 5rem;">
+            <section class="col-md-12 d-flex justify-content-center align-items-center">
+                <div class="my__wrapper__learning">
+                    <div class="my__card__learning" style="--delay:-1">
+                        <div class="my__content__learning">
+                            <img src="{% static 'medias/images/png/learning/semanticweb.png' %}" alt="" class="my__img__learning">
+                            <div class="my__text__content__learning">
+                                <span class="my__name__learning">Semantic Web</span>
+                                <p class="my__desc__learning">I learn to do intelligent search engine</p>
+                            </div>
+                        </div>
+                        <a href="#none" class="my__details__learning">Details</a>
+                    </div>
+                    <div class="my__card__learning" style="--delay:0">
+                        <div class="my__content__learning">
+                            <img src="{% static 'medias/images/png/learning/mapbox.png' %}" alt="" class="my__img__learning">
+                            <div class="my__text__content__learning">
+                                <span class="my__name__learning">Mapbox API</span>
+                                <p class="my__desc__learning">I continue to learn this for android platform</p>
+                            </div>
+                        </div>
+                        <a href="#none" class="my__details__learning">Details</a>
+                    </div>
+                    <div class="my__card__learning" style="--delay:1">
+                        <div class="my__content__learning">
+                            <img src="{% static 'medias/images/png/learning/jenkins.png' %}" alt="" class="my__img__learning">
+                            <div class="my__text__content__learning">
+                                <span class="my__name__learning">Jenkins</span>
+                                <p class="my__desc__learning">I'm training with devOps tools</p>
+                            </div>
+                        </div>
+                        <a href="#none" class="my__details__learning">Details</a>
+                    </div>
+                    <div class="my__card__learning" style="--delay:2">
+                        <div class="my__content__learning">
+                            <img src="{% static 'medias/images/png/learning/django.png' %}" alt="" class="my__img__learning">
+                            <div class="my__text__content__learning">
+                                <span class="my__name__learning">Django Channel</span>
+                                <p class="my__desc__learning">I want to manipulate data in real time </p>
+                            </div>
+                        </div>
+                        <a href="#none" class="my__details__learning">Details</a>
+                    </div>
+                    <div class="my__card__learning" style="--delay:2">
+                        <div class="my__content__learning">
+                            <img src="{% static 'medias/images/png/learning/adobexd.png' %}" alt="" class="my__img__learning">
+                            <div class="my__text__content__learning">
+                                <span class="my__name__learning">Adobe XD</span>
+                                <p class="my__desc__learning">I current learn this for make customs svg animations</p>
+                            </div>
+                        </div>
+                        <a href="#none" class="my__details__learning">Details</a>
+                    </div>
+                </div>
+            </section>
+        </row>
+
+        <row class="row" id="services__row" >
+            <section class="my-section col-md-12">
+                <div class="my-section__head">
+                    <h2 class="my-section__title">
+                        <span class="my-section__name">Services</span>
+                    </h2>
+                    <div class="my-section__line__render"></div>
+                </div>
+                <div class="my-section__container">
+                    <div class="my-card__service__glass">
+                        <p class="my-card__service__text">
+                            <br><span class="my-card__service__name">Enthusiastic Android and Web developper Working with Java, Kotlin, Flutter, Django, Vue.js</span>
+                            <br>
+                            <br>For now I don't have a huge experience in software developement, but I'm still work very hard to learn more and more
+                            <br>I also develop games for all platforms with Unity3D and Godot Engine. At the portfolio session, you can look my current working on game
+                            <br>But my main focus is on native Android development
+                            <br>My UX level is also pretty good and you can check my <a href="#" class="my-card__service__link">Dribble account</a> for more details
+                        </p>
+                        <div class="row align-content-center">
+                            <div class="my__service col-md-3">
+                                <div class="my__card">
+                                    <div class="my__content">
+                                        <div class="my__background">
+                                            <img src="{% static 'medias/images/png/android_logo.svg' %}" alt="" class="my__service_img">
+                                            <h4 class="my__service__subtitle">#Mobile</h4>
+                                        </div>
+                                        <div class="my__bottom">
+                                            <h3 class="my__service__title">
+                                                Develop Android apps
+                                            </h3>
+                                            <p class="my_service_text">
+                                                Develop Android applications using the lastest architecture and technologies like MVVM
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my__service col-md-3">
+                                <div class="my__card">
+                                    <div class="my__content">
+                                        <div class="my__background">
+                                            <img src="{% static 'medias/images/png/web_logo.svg' %}" alt="" class="my__service_img">
+                                            <h4 class="my__service__subtitle">#Web</h4>
+                                        </div>
+                                        <div class="my__bottom">
+                                            <h3 class="my__service__title">
+                                                Make full web apps
+                                            </h3>
+                                            <p class="my_service_text">
+                                                Develop web application with Django and ensure continious deployment and integration
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my__service col-md-3">
+                                <div class="my__card">
+                                    <div class="my__content">
+                                        <div class="my__background">
+                                            <img src="{% static 'medias/images/png/ux_design.svg' %}" alt="" class="my__service_img">
+                                            <h4 class="my__service__subtitle">#UI/UX</h4>
+                                        </div>
+                                        <div class="my__bottom">
+                                            <h3 class="my__service__title">
+                                                Make amazing UI and UX
+                                            </h3>
+                                            <p class="my_service_text">
+                                                Make an amazing interactive UI design with a powerfull tools for all platform
+                                            </p><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my__service col-md-3">
+                                <div class="my__card">
+                                    <div class="my__content">
+                                        <div class="my__background">
+                                            <img src="{% static 'medias/images/png/unity3d_logo.svg' %}" alt="" class="my__service_img">
+                                            <h4 class="my__service__subtitle">#Game</h4>
+                                        </div>
+                                        <div class="my__bottom">
+                                            <h3 class="my__service__title">
+                                                Develop games
+                                            </h3>
+                                            <p class="my_service_text">
+                                                Develop games (more 2D games than 3D) for all platform and also make game design
+                                            </p><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </row>
+        
+        <row class="row" id="portfolio__row">
+            <section class="my-section col-md-12">
+                <div class="my-section__head">
+                    <h2 class="my-section__title">
+                        <span class="my-section__name">Portfolio</span>
+                    </h2>
+                    <div class="my-section__line__render"></div>
+                </div>
+                <div class="my-section__container">
+                    <div class="my-card__protfolio__glass">
+                        <div class="my__portfolio__wrapper">
+                            <nav>
+                                <div class="row">
+                                    <div class="col-md-auto" style="margin-top: 2rem;">
+                                        <a href="#mobile__worked" class="my__portfolio__item my__portfolio__item__active" data-name="mobile__worked">Mobile apps</a>
+                                    </div>
+                                    <div class="col-md-auto" style="margin-top: 2rem;">
+                                        <a href="#mobile__worked" class="my__portfolio__item" data-name="web__worked">Web apps</a>
+                                    </div>
+                                    <div class="col-md-auto" style="margin-top: 2rem;">
+                                        <a href="#mobile__worked" class="my__portfolio__item" data-name="ui__worked">UI design</a>
+                                    </div>
+                                    <div class="col-md-auto" style="margin-top: 2rem;">
+                                        <a href="#mobile__worked" class="my__portfolio__item" data-name="game__worked">Game dev</a>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="row" style="padding: 10px;">
+                                {% include '../layouts/work_mobile.html' %}
+                                {% include '../layouts/work_web.html' %}
+                                {% include '../layouts/work_ui.html' %}
+                                {% include '../layouts/work_game.html' %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </row>
+        
+        <row class="row" id="about__row">
+            <section class="my-section col-md-12">
+                <div class="my-section__head">
+                    <h2 class="my-section__title">
+                        <span class="my-section__name">About</span>
+                    </h2>
+                    <div class="my-section__line__render"></div>
+                </div>
+                <div class="my-section__container">
+                    <div class="my-card__about__glass">
+                        <p class="my-card__about__text">
+                            <br>Currently I am student at Master 1 in University of Yaound 1, and I work on my personnal projects for learn more in development
+                            <br>I have more than 1 year of experience on Android native and Django development
+                            <br>This site is design using Django, Bootstrap, Material Design, classic HTML, CSS3 and native JavaScript
+                            <br>I'm very obseded with amazing UI and performance
+                            <br>As you can see, I also develop video games
+                            <br>My non professional interest includes reading books and discover the world (travel)
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </row>
+
+        <row class="row" id="contact__row" >
+            <section class="my-section col-md-12">
+                <div class="my-section__head">
+                    <h2 class="my-section__title">
+                        <span class="my-section__name">Contact</span>
+                    </h2>
+                    <div class="my-section__line__render"></div>
+                </div>
+                <div class="my-section__container">
+                    <div class="my-card__contact__glass">
+                        <form id="form__contact">
+                            <div class="mb-3">
+                              <input type="email" class="form__input__type form__input__user_name" aria-describedby="userNameHelp" placeholder=""><br>
+                              <label for="form__input__user_name" class="form__label">User name</label>
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="form__input__type form__input__mail" aria-describedby="emailHelp" placeholder=""><br>
+                              <label for="form__input__mail" class="form__label">Email address</label>
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="form__input__type form__input__subject" aria-describedby="subjectHelp" placeholder=""><br>
+                              <label for="form__input__subject" class="form__label">Subject</label>
+                            </div>
+                            <div class="mb-3">
+                              <textarea form="form__contact" class="form__input__message" placeholder=""></textarea><br>
+                              <label for="form__input__message" class="form__label">Message</label>
+                            </div>
+                            <a type="submit" href="#" class="my-card__contact__button">Send</a>
+                          </form>
+                    </div>
+                </div>
+            </section>
+        </row>
+    </div>
+{% endblock %}

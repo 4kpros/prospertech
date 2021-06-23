@@ -1,0 +1,95 @@
+
+.my__work__card__container{
+    padding: 2rem 1rem 0 0;
+}
+.my__work__card{
+    height: fit-content;
+    border-radius: 1rem;
+    background: var(--card-glass-cover-color);
+    box-shadow: inset 1px 1px 1px var(--card-glass-cover-stroke-color), inset -1px -1px 1px var(--card-glass-cover-stroke-color);
+    margin: 0;
+    padding: 0;
+}
+.my__work__card:hover{
+    transform: scale(1.02,1.02);
+    box-shadow:0 0 5px rgba(148, 148, 148, 0.6);
+}
+.my__work__item{
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+    max-height: 200px;
+    margin: 0;
+    padding: 1rem;
+}
+.my__work_img__logo{
+    width: 40px;
+    height: 40px;
+    max-height: 40px;
+    align-content: center;
+    border-radius: 2%;
+}
+.my__work__item__title{
+    color: var(--text-color);
+    text-align: center;
+    font-weight: var(--normal-font-weight);
+}
+.my__work__desc{
+    padding: 1rem;
+}
+.my__work__item__desc{
+    font-size: var(--normal-font-size);
+    color: var(--semi-text-color);
+    align-content: center;
+    text-align: center;
+    font-weight: var(--normal-font-weight);
+}
+.my__work__item__domain{
+    font-size: var(--small-font-size);
+    color: var(--text-hint-color);
+    font-weight: var(--normal-font-weight);
+}
+.my__work__item__state{
+    font-size: .5rem;
+    color: var(--text-hint-color);
+    text-align: end;
+}
+.my__work__more{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    background: var(--top-glass-cover-color);
+}
+.my__work__item__look{
+    text-align: end;
+}
+.my__work__item__look_text{
+    text-decoration: none;
+    margin: 1rem;
+    color: var(--first-color);
+    text-align: end;
+    font-weight: var(--normal-font-weight);
+}
+.my__work__item__look_text:hover{
+    color: var(--first-color);
+    text-shadow:0 0 5px rgba(255, 136, 0, .6);
+}
+
+.my__work__item__show{
+    animation: scaleIn 0.7s ease-in-out forwards;
+}
+.my__work__item__hide{
+    display: none;
+}
+
+@keyframes scaleIn {
+    from{
+        translate: 0 -20px;
+        opacity: 0;
+    }
+    to{
+        translate: 0 0px;
+        opacity: 1;
+    }
+}

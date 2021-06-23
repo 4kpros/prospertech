@@ -1,0 +1,102 @@
+
+.my__circle1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: -10%;
+    right: 8%;
+    background: var(--circle2-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .my__circle2{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 35%;
+    left: 12%;
+    background: var(--circle1-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .my__circle3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 30%;
+    top: 80%;
+    background: var(--circle2-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .my__circle4{
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    right: 15%;
+    top: 130%;
+    background: var(--circle1-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+    display: none;
+  }
+  .my__circle5{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 120%;
+    background: var(--circle1-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+    display: none;
+  }
+  .my__circle6{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 195%;
+    right: 10%;
+    background: var(--circle2-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .my__circle7{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 210%;
+    right: 50%;
+    background: var(--circle1-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+    display: none;
+  }
+  .my__circle8{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 235%;
+    background: var(--circle1-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .my__circle9{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 260%;
+    background: var(--circle1-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+    display: none;
+  }
+  .my__circle10{
+    position: absolute;
+    width: 390px;
+    height: 390px;
+    right: 20%;
+    top: 300%;
+    background: var(--circle2-glass-cover-color);
+    border-radius: 50%;
+    z-index: -1;
+  }

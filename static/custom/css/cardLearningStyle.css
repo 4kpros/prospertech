@@ -1,0 +1,91 @@
+
+
+.my__wrapper__learning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+.my__card__learning{
+    background: white;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    position: absolute;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background: var(--card-glass-color);
+    box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
+    backdrop-filter: blur(10px);
+    animation: learning__animation 15s linear infinite;
+    opacity: 0;
+    animation-delay: calc(3s * var(--delay));
+}
+.my__wrapper__learning:hover .my__card__learning{
+    animation-play-state: paused;
+}
+.my__card__learning:last-child{
+    animation-delay: calc(-3s * var(--delay));
+}
+@keyframes learning__animation {
+    0%{
+        opacity: 0;
+        transform: translateY(100%) scale(0.5);
+    }
+    5%, 20%{
+        opacity: 0.4;
+        transform: translateY(100%) scale(0.7);
+    }
+    25%, 40%{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0%) scale(1);
+    }
+    45%, 60%{
+        opacity: 0.4;
+        transform: translateY(-100%) scale(0.7);
+    }
+    65%, 100%{
+        opacity: 0;
+        transform: translateY(-100%) scale(0.5);
+    }
+}
+.my__content__learning{
+    display: flex;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+}
+.my__img__learning{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(135, 135, 135, 0.2);
+}
+.my__text__content__learning{
+    margin-left: 100px;
+}
+.my__name__learning{
+    color: var(--text-color);  
+    font-weight: var(--normal-font-weight);
+    font-size: var(--normal-font-size);
+} 
+.my__desc__learning{
+    color: var(--text-color);  
+    font-weight: var(--semi-normal-font-weight);
+    font-size: var(--small-font-size);
+}
+.my__details__learning{
+    text-decoration: none;
+    margin: 1rem;
+    color: var(--first-color);
+    text-align: end;
+    font-weight: var(--normal-font-weight);
+}
+.my__details__learning:hover{
+    color: var(--first-color);
+    text-shadow:0 0 5px rgba(255, 136, 0, .6);
+}

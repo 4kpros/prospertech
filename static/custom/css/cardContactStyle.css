@@ -1,0 +1,95 @@
+
+
+.my-card__contact__glass{
+    position: relative;
+    padding: 2rem;
+    text-align: start;
+    background: var(--card-glass-color);
+    box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+}
+.form__label{
+    color: var(--text-color);
+    margin-left: 3px;
+    font-weight: var(--normal-font-weight);
+}
+.form__input__type {
+    min-height: 46px;
+    height: 46px;
+    width: 40%;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: .5em;
+    outline: 0;
+    margin-top: 5px;
+    font-weight: var(--small-font-weight);
+}
+.form__input__type:hover{
+    border-color: var(--first-color);
+}
+.form__input__message {
+    min-height: 46px;
+    height: 156px;
+    width: 40%;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: .5em;
+    outline: 0;
+    margin-top: 5px;
+    font-weight: var(--small-font-weight);
+}
+.form__input__message:hover{
+    border-color: var(--first-color);
+}
+.my-card__contact__button{
+    margin-top: 1em;
+    text-decoration: none;
+    color: var(--second-color);
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    background: linear-gradient(
+        130deg, 
+        rgba(255, 136, 0, .9),
+        rgba(255, 136, 0, .6)
+    );
+    font-weight: var(--normal-font-weight);
+}
+.my-card__contact__button:hover{
+    color: var(--text-hint-color);
+    background: linear-gradient(
+        130deg, 
+        rgba(255, 136, 0, .9),
+        rgba(255, 136, 0, .6));
+}
+
+.form__input__user_name{
+    margin-top: 2rem;
+    font-weight: var(--small-font-weight);
+}
+@media screen and (max-width: 768px){
+    
+    .form__input__message {
+        min-height: 46px;
+        height: 156px;
+        width: 70%;
+        padding: 0 16px;
+        border: 2px solid #ddd;
+        border-radius: .5em;
+        font-family: var(--body-font);
+        outline: 0;
+        margin-top: 20px;
+    }
+    .form__input__type {
+        min-height: 46px;
+        height: 46px;
+        width: 70%;
+        padding: 0 16px;
+        border: 2px solid #ddd;
+        border-radius: .5em;
+        font-family: var(--body-font);
+        outline: 0;
+        margin-top: 20px;
+    }
+}

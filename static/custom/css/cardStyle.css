@@ -1,0 +1,79 @@
+
+
+
+/*===== CARD GLASS =====*/
+.my-card__container{
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.my-card__glass{
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    background: var(--card-glass-color);
+    box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+}
+.my-card__data{
+    margin-bottom: 1.5rem;
+}
+.my-card__title{
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    margin-bottom: .25rem;
+    font-weight: var(--semi-big-font-weight);
+}
+.my-card__name{
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-bottom: .25rem;
+    font-weight: var(--normal-font-weight);
+}
+.my-card__profession{
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--normal-font-weight);
+}
+.my-card__button{
+    text-decoration: none;
+    color: var(--second-color);
+    font-weight: var(--normal-font-weight);
+    display: inline-block;
+    margin: 1rem;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    background: linear-gradient(
+        130deg, 
+        rgba(255, 136, 0, .9),
+        rgba(255, 136, 0, .6)
+    );
+}
+.my-card__button:hover{
+    color: var(--text-hint-color);
+    background: linear-gradient(
+        130deg, 
+        rgba(255, 136, 0, .9),
+        rgba(255, 136, 0, .6));
+}
+.my-card__text{
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--normal-font-weight);
+}
+.my-card__social{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.my-card__link{
+    display: inline;
+    font-size: 1.35rem;
+    color: var(--title-color);
+    margin: 2rem;
+    font-weight: var(--normal-font-weight);
+}
+.my-card__link:hover{
+    color: var(--first-color);
+}

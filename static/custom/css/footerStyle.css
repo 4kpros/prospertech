@@ -1,0 +1,31 @@
+
+.footer__container{
+    position: relative;
+    background: var(--footer-glass-color);
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.footer__link{
+    color:  var(--second-color);
+    text-decoration: none;
+}
+.footer__link:hover{
+    color: var(--primary-color);
+}
+.footer__social-link{
+    color:  var(--second-color);
+    margin: 1rem;
+}
+.footer__social-link:hover{
+    color: var(--primary-color);
+}
+.footer__text{
+    color: var(--second-color);
+    text-decoration: none;
+}
+.footer__personal__site{
+    color: var(--second-color);
+    text-decoration: none;
+}
