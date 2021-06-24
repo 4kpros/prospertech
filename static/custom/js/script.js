@@ -43,13 +43,13 @@ var galleryCovidApp = [
     {
         src: "https://docs.google.com/uc?export=download&id=1jvnU8zmzVKP1TGifHlLRxWCLzax13GOo",
         title: "Fire Fighter Mobile App (stoped)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme,
-    }
+    },
     {
         src: "https://docs.google.com/uc?export=download&id=1icv8EUFl701AHM5b_WuShDntjU_JMYPB",
         title: "Fire Fighter Mobile App (stoped)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme,
     }
 ];
@@ -57,131 +57,124 @@ var galleryFireFighterApp = [
     {
         src: "https://docs.google.com/uc?export=download&id=1772Aw6a3X44iqilN2PHop9lYz8TN9TLO",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme,
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1ueyHWOzBqJRHuiL39LCcVZQDSd6LJXDY",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1Yt-Y9GfzAfVuAhlPxwf3_7M12swQ_a4c",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1UnnBmS7hbbxVlzdqJD2uU0LBRzxMiGe0",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1sGZnrs32XNbauiWq21lAnsS7-LbYdzMZ",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1PckIZZCmEfSg9VYpuPoBN3_hSwjaj3ow",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1-cdxAZ_IMryk4B7CFlvw4-u2sTIYLy96",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1FMwA6io_brVuhhpE-pRaGTqaXLdnQCXk",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1gVpZY2K2OVjFGLeG2uMXjf5ZMXo6Hz6m",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1oQcAOywEz5Z7nMxynX4VfGKE6O_UWHDC",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1HM603TEkJPcEc7Rsj_DpofEXYpcT5Id_",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1FLUyo6fMquzt3hQaLpuOK0TrIMSA5Fbl",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1gVP9QZmjqPm4PCN4ZFcny8kpeGYsZh9-",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1azUpJQs0uaWYgRn_1UpHvuLThG-npefh",
         title: "Fire Fighter Mobile App (work in progress)",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER & academic team Members",
         theme: currentTheme
     }
 ];
 //Web apps gallery
 var galleryCovidWeb = [
     {
-        src: "https://docs.google.com/uc?export=download&id=10GTtHO3pZV_S8VynNQIHZQHCyUtcpKOw",
+        src: "https://docs.google.com/uc?export=download&id=1ybzAiVgF3ByPev2Btz_xU8RXWR7BsGt-",
         title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1a_mTYV9fZdOBMOkPd6q5OOcVD2Ep3Fcx",
+        src: "https://docs.google.com/uc?export=download&id=1ynfzcC2IEkALuAYgEltXlwxcODKB3ozb",
         title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1WkRpXtKK9tFM_Sz2lggW-BTmEx5wjoAr",
+        src: "https://docs.google.com/uc?export=download&id=125HwK5W0aov2Hv5VT3tB-LWxlRIPaPxv",
         title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1tu17RHiyfg9HZqoDcmFeQbXYKIc7HcXR",
+        src: "https://docs.google.com/uc?export=download&id=1FIXWJg4ryCULxMm0RPGflIDIccpvWwpC",
         title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1gj9jsEFvswRrkaOo6vU_nmp308jFUF1R",
+        src: "https://docs.google.com/uc?export=download&id=1uXJLUEPR0o5TeDIBjC77kSLM7FbePo9E",
         title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1y5DQeagJASjUErCVAqU46EXoXhn40CyE",
+        src: "https://docs.google.com/uc?export=download&id=1jWcNEf13vSFe8tTkCrf_Kk4yTvViXb8Q",
         title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
-        theme: currentTheme 
-    },
-    {
-        src: "https://docs.google.com/uc?export=download&id=1I-hnJpvCboS1RyMAlHoqpL0Ww5bscQPf",
-        title: "Covid Stats Web App",
-        description: "By ABOUAR PROSPER",
+        description: "By ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     }
 ];
