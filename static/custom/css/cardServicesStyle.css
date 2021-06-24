@@ -56,7 +56,6 @@
     border-radius: 1rem;
     background: var(--card-glass-cover-color);
     box-shadow: inset 1px 1px 1px var(--card-glass-cover-stroke-color), inset -1px -1px 1px var(--card-glass-cover-stroke-color);
-    height: 300px;
 }
 .my__content:hover{
 }
