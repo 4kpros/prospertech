@@ -41,19 +41,6 @@ var galleryFluidMusicApp = [
 ];
 var galleryCovidApp = [
     {
-        media: "video",
-        "src-mp4": "https://docs.google.com/uc?export=download&id=1VnaCaUmXGwyuSqkGp8iyXiLvGXuJv3ZO",
-        poster: "preview.jpg",
-        autoplay: true,
-        muted: true,
-        preload: true,
-        controls: true,
-        inline: false,
-      title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    {
         src: "https://docs.google.com/uc?export=download&id=1uYR0CsgSPD5Nx3tsSni22tmau8wfi1AZ",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
