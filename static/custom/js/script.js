@@ -1,10 +1,10 @@
 
-
 ScrollReveal().reveal('.my-card__container', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-home__img__container', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-home__scroll', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-section__head', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-section__container', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
+
 
 //Mobile apps gallery
 var galleryFluidMusicApp = [
@@ -282,10 +282,10 @@ var galleryGameDevlog = [
 ];
 
 //For works filter
-const filterItems = document.getElementsByClassName("my__portfolio__item");
-const filterCards = document.getElementsByClassName("my__work__card__container");
-const workCardButtonMores = document.getElementsByClassName("my__work__item__look_text");
-const navBar = document.getElementsByClassName("my__navbar__theme__change");
+var filterItems = document.getElementsByClassName("my__portfolio__item");
+var filterCards = document.getElementsByClassName("my__work__card__container");
+var workCardButtonMores = document.getElementsByClassName("my__work__item__look_text");
+var navBar = document.getElementsByClassName("my__navbar__theme__change");
 
 var getItemWorkDetailsClicked = function(){
     var attribute = this.getAttribute("data-name");
