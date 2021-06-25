@@ -7,7 +7,7 @@
     background: var(--card-glass-color);
     box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
     border-radius: 1rem;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur-size);
 }
 .my-card__portfolio__data{
     margin-bottom: 1.5rem;

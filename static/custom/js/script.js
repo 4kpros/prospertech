@@ -41,13 +41,50 @@ var galleryFluidMusicApp = [
 ];
 var galleryCovidApp = [
     {
-        src: "https://docs.google.com/uc?export=download&id=1jvnU8zmzVKP1TGifHlLRxWCLzax13GOo",
+        media: "video",
+        "src-mp4": "https://docs.google.com/uc?export=download&id=1VnaCaUmXGwyuSqkGp8iyXiLvGXuJv3ZO",
+        poster: "preview.jpg",
+        autoplay: true,
+        muted: true,
+        preload: true,
+        controls: true,
+        inline: false,
+      title: "Game Devlogs (developpement en cours)",
+        description: "Par ABOUAR PROSPER",
+        theme: currentTheme
+    },
+    {
+        src: "https://docs.google.com/uc?export=download&id=1uYR0CsgSPD5Nx3tsSni22tmau8wfi1AZ",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1icv8EUFl701AHM5b_WuShDntjU_JMYPB",
+        src: "https://docs.google.com/uc?export=download&id=1WmNu3Xo0EcZBKidvER9dTqsPneHsq5Jv",
+        title: "Firefighter mobile app (stoped)",
+        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        theme: currentTheme
+    },
+    {
+        src: "https://docs.google.com/uc?export=download&id=1lXZqsAj5bDwrjkUpiouR_0DeFTpxZztP",
+        title: "Firefighter mobile app (stoped)",
+        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        theme: currentTheme
+    },
+    {
+        src: "https://docs.google.com/uc?export=download&id=1Lug_ELIzphH2QEE5Ucrlmug68MdnvRwl",
+        title: "Firefighter mobile app (stoped)",
+        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        theme: currentTheme
+    },
+    {
+        src: "https://docs.google.com/uc?export=download&id=1zEzbdi-1DlSucPXDA3sLC0w80Z4pweRK",
+        title: "Firefighter mobile app (stoped)",
+        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        theme: currentTheme
+    },
+    {
+        src: "https://docs.google.com/uc?export=download&id=1RK5_2aCDeGRnBzpydP_E9CcjF0zCt3oZ",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
@@ -261,6 +298,7 @@ var galleryGameDevlog = [
 const filterItems = document.getElementsByClassName("my__portfolio__item");
 const filterCards = document.getElementsByClassName("my__work__card__container");
 const workCardButtonMores = document.getElementsByClassName("my__work__item__look_text");
+const navBar = document.getElementsByClassName("my__navbar__theme__change");
 
 var getItemWorkDetailsClicked = function(){
     var attribute = this.getAttribute("data-name");
@@ -331,6 +369,10 @@ var currentTheme = "black"
 //Change the current theme
 var changeCurrentTheme = function(){
     document.body.classList.toggle("dark__theme");
+    for (var i = 0; i < navBar.length; i++) {
+        navBar[i].classList.toggle("navbar-light");
+        navBar[i].classList.toggle("navbar-dark");
+    }
     if(document.body.classList.contains("dark__theme")){
         currentTheme = "white";
         buttonTheme.classList.remove("bxs-moon");
