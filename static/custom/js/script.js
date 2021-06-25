@@ -360,6 +360,8 @@ var changeCurrentTheme = function(){
         navBar[i].classList.toggle("navbar-light");
         navBar[i].classList.toggle("navbar-dark");
     }
+    navBar.classList.toggle("navbar-light");
+    navBar.classList.toggle("navbar-dark");
     if(document.body.classList.contains("dark__theme")){
         currentTheme = "white";
         buttonTheme.classList.remove("bxs-moon");
