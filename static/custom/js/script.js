@@ -223,69 +223,15 @@ var galleryHouseUI = [
         theme: currentTheme 
     }
 ];
-//Games gallery
-var galleryGameDevlog = [
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1CTcU33Hsm1KEEIq69NTqA6MAIrfHG8x_",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1nWceoP8T2W5UXaHLOrN3C7PEU6i1eqw8",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1TTL8HSqhuWWx_k68WulsLIiRyEUh4Oe-",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1uv9ymXI_RDco3kWVCCLi8Dfd_S1LrQf-",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1YwMKE1JVnAWedjp1WQfh1VAgZqmZH549",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=187ZWCPOe8wW8kxpC0n5DxChmBeJgW6bn",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1y8VoCDhtyQ9YJxhanDyWAOOW7yJDEq1O",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1vr5T8W7Dy6ecXVnS-8_sqhC73_V9dPEc",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1viIvHJpQkpjISGDdLaxN1iwbTcz8yUsj",
-        title: "Game Devlogs (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
-    }
-];
 
 //For works filter
 var filterItems = document.getElementsByClassName("my__portfolio__item");
 var filterCards = document.getElementsByClassName("my__work__card__container");
 var workCardButtonMores = document.getElementsByClassName("my__work__item__look_text");
 var navBar = document.getElementsByClassName("my__navbar__theme__change");
+
+var buttonTheme = document.getElementById("my__nav__theme__toggle");
+var currentTheme = "black";
 
 var getItemWorkDetailsClicked = function(){
     var attribute = this.getAttribute("data-name");
@@ -305,10 +251,6 @@ var getItemWorkDetailsClicked = function(){
     //Check for ui
     if(attribute == "look__house__ui"){
         Spotlight.show(galleryHouseUI);
-    }
-    //Check for game
-    if(attribute == "look__game__devlog"){
-        Spotlight.show(galleryGameDevlog);
     }
 }
 
@@ -350,9 +292,6 @@ for (var i = 0; i < filterCards.length; i++) {
 for (var i = 0; i < filterItems.length; i++) {
     filterItems[i].addEventListener('click', getItemClicked, false);
 }
-
-var buttonTheme = document.getElementById("my__nav__theme__toggle");
-var currentTheme = "black"
 //Change the current theme
 var changeCurrentTheme = function(){
     document.body.classList.toggle("dark__theme");
@@ -360,8 +299,6 @@ var changeCurrentTheme = function(){
         navBar[i].classList.toggle("navbar-light");
         navBar[i].classList.toggle("navbar-dark");
     }
-    navBar.classList.toggle("navbar-light");
-    navBar.classList.toggle("navbar-dark");
     if(document.body.classList.contains("dark__theme")){
         currentTheme = "white";
         buttonTheme.classList.remove("bxs-moon");
