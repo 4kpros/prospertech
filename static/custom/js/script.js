@@ -1,11 +1,11 @@
-
+/*
 ScrollReveal().reveal('.my-card__container', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-home__img__container', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-home__scroll', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-section__head', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 ScrollReveal().reveal('.my-section__container', { delay: 10, origin:'top', distance:'80px', duration:2000, reset:true});
 
-
+*/
 //Mobile apps gallery
 var galleryFluidMusicApp = [
     { 
