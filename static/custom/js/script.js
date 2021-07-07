@@ -41,37 +41,37 @@ var galleryFluidMusicApp = [
 ];
 var galleryCovidApp = [
     {
-        src: "https://docs.google.com/uc?export=download&id=1uYR0CsgSPD5Nx3tsSni22tmau8wfi1AZ",
+        src: "https://docs.google.com/uc?export=download&id=19ihSQ-62dWZNghDIKEZVXX8_C1HJG61P",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1WmNu3Xo0EcZBKidvER9dTqsPneHsq5Jv",
+        src: "https://docs.google.com/uc?export=download&id=19ihSQ-62dWZNghDIKEZVXX8_C1HJG61P",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1lXZqsAj5bDwrjkUpiouR_0DeFTpxZztP",
+        src: "hhttps://docs.google.com/uc?export=download&id=1wThMFrHQGJYX2IeySuMfFbupRQiMMFg_",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1Lug_ELIzphH2QEE5Ucrlmug68MdnvRwl",
+        src: "https://docs.google.com/uc?export=download&id=1AFgguq7GSWb9MwC0zgO-0YqIKCUnHonW",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1zEzbdi-1DlSucPXDA3sLC0w80Z4pweRK",
+        src: "https://docs.google.com/uc?export=download&id=1K5U75qOnc_Q2VTtgRZtdC9f3WLQvFDyh",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1RK5_2aCDeGRnBzpydP_E9CcjF0zCt3oZ",
+        src: "https://docs.google.com/uc?export=download&id=1rL9yavBIw30l_imJbrkpc-zh0RGO_KCO",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
@@ -79,85 +79,55 @@ var galleryCovidApp = [
 ];
 var galleryFireFighterApp = [
     {
-        src: "https://docs.google.com/uc?export=download&id=1772Aw6a3X44iqilN2PHop9lYz8TN9TLO",
+        src: "https://docs.google.com/uc?export=download&id=120qeNFn_7Ws7P0OzLV2t2wP9YxGDnxHu",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1ueyHWOzBqJRHuiL39LCcVZQDSd6LJXDY",
+        src: "https://docs.google.com/uc?export=download&id=1tws4fjys8XReB67Xb4OGRDrwGv5p-A-W",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1Yt-Y9GfzAfVuAhlPxwf3_7M12swQ_a4c",
+        src: "https://docs.google.com/uc?export=download&id=1FFAYSjRJjNsSxKyINNm2IqqtekWYmbD0",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1UnnBmS7hbbxVlzdqJD2uU0LBRzxMiGe0",
+        src: "https://docs.google.com/uc?export=download&id=1RbuLtIZeOuClF1wi_SY14L0NEpBsdxHC",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1sGZnrs32XNbauiWq21lAnsS7-LbYdzMZ",
+        src: "https://docs.google.com/uc?export=download&id=1nnvMa8tMCqCABwIXnuolXEhRgcdywqBL",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1PckIZZCmEfSg9VYpuPoBN3_hSwjaj3ow",
+        src: "https://docs.google.com/uc?export=download&id=1fpsdrxUEmpU4YrPauvQ4bfbgVb_hRuN8",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1-cdxAZ_IMryk4B7CFlvw4-u2sTIYLy96",
+        src: "https://docs.google.com/uc?export=download&id=1AMb9lMq6vMNOK9VtCDW6d__C8_E0vK8r",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1FMwA6io_brVuhhpE-pRaGTqaXLdnQCXk",
+        src: "https://docs.google.com/uc?export=download&id=1Bnrb0ZOyOGflRpo87m6QcPTF-iAe7MTd",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
-        src: "https://docs.google.com/uc?export=download&id=1gVpZY2K2OVjFGLeG2uMXjf5ZMXo6Hz6m",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1oQcAOywEz5Z7nMxynX4VfGKE6O_UWHDC",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1HM603TEkJPcEc7Rsj_DpofEXYpcT5Id_",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1FLUyo6fMquzt3hQaLpuOK0TrIMSA5Fbl",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1gVP9QZmjqPm4PCN4ZFcny8kpeGYsZh9-",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
-        theme: currentTheme
-    },
-    { 
-        src: "https://docs.google.com/uc?export=download&id=1azUpJQs0uaWYgRn_1UpHvuLThG-npefh",
+        src: "https://docs.google.com/uc?export=download&id=1w7krc2BWs06i1UgPiCNpBRsQShcfB7Xb",
         title: "Firefighter mobile app (developpement en cours)",
         description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
