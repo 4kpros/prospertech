@@ -53,7 +53,7 @@ var galleryCovidApp = [
         theme: currentTheme
     },
     {
-        src: "hhttps://docs.google.com/uc?export=download&id=1wThMFrHQGJYX2IeySuMfFbupRQiMMFg_",
+        src: "https://docs.google.com/uc?export=download&id=1wThMFrHQGJYX2IeySuMfFbupRQiMMFg_",
         title: "Firefighter mobile app (stoped)",
         description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme
