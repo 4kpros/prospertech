@@ -108,7 +108,7 @@
 html { scroll-behavior: smooth; }
 *{
   font-family: var(--body-font);
-  transition: .4s;
+  transition: .2s;
   box-sizing: border-box;
 }
 .my-nav__title{
@@ -120,7 +120,12 @@ html { scroll-behavior: smooth; }
 .body__light__color{
   background: var(--body-color);
 }
-
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 .my-nav__title__last{
   margin-left: 2em;
   color: var(--primary-color);
@@ -150,7 +155,6 @@ html { scroll-behavior: smooth; }
   box-shadow: inset 1px 1px 1px var(--card-glass-stroke-color), inset -1px -1px 1px var(--card-glass-stroke-color);
   border-radius: 50%;
   overflow: hidden;
-  animation: animation__profile ease 0.8s infinite alternate-reverse;
   backdrop-filter: blur(10px);
   
 }
@@ -198,13 +202,15 @@ html { scroll-behavior: smooth; }
 .my__nav__theme__toggle:hover{
   color: var(--first-color);
 }
+.nav-item{
+    margin-bottom: 2rem;
+  }
 @media screen and (max-width: 768px){
   .my-home__img__container{
     width: 265px;
     height: 265px;
   }
 }
-
 @keyframes animation__profile {
   from {
     transform: translateY(-15px);
