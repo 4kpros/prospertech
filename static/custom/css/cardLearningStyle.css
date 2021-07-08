@@ -22,7 +22,7 @@
     animation-delay: calc(3s * var(--delay));
 }
 .my__wrapper__learning:hover .my__card__learning{
-    animation-play-state: paused;
+    /*animation-play-state: paused;*/
 }
 .my__card__learning:last-child{
     animation-delay: calc(-3s * var(--delay));
