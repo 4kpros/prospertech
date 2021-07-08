@@ -10,126 +10,82 @@ ScrollReveal().reveal('.my-section__container', { delay: 10, origin:'top', dista
 var galleryFluidMusicApp = [
     { 
         src: "https://docs.google.com/uc?export=download&id=10GTtHO3pZV_S8VynNQIHZQHCyUtcpKOw",
-        title: "Music Player Mobile App (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme 
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1yGySI2XSQ_NbUZdr13Zp-Po8nYHZry-z",
-        title: "Music Player Mobile App (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1gVucLiz81cbZLEYjmdm5F2eWdfS9hIU9",
-        title: "Music Player Mobile App (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1yGO99PStEkKmwRL84Gk7XR4IIQXbIEAF",
-        title: "Music Player Mobile App (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
-        theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1Kp_eQzI9aJITpcLUU4wkpUDQtyq7lo7d",
         title: "Music Player Mobile App (developpement en cours)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme
     }
 ];
 var galleryCovidApp = [
     {
-        src: "https://docs.google.com/uc?export=download&id=19ihSQ-62dWZNghDIKEZVXX8_C1HJG61P",
-        title: "Firefighter mobile app (stoped)",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        src: "https://docs.google.com/uc?export=download&id=1XBLlRIkfOk5z43L06jub5QhnZl6CaPTs",
+    theme: currentTheme
+    },
+    {
+        src: "https://docs.google.com/uc?export=download&id=1Gm5CjV85Lg6_isSD0Op2gksfzUZXGfmK",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=19ihSQ-62dWZNghDIKEZVXX8_C1HJG61P",
-        title: "Firefighter mobile app (stoped)",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        src: "https://docs.google.com/uc?export=download&id=14VrD344WKqSm-oJPLQ9LH_BnqjGdjbA1",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1wThMFrHQGJYX2IeySuMfFbupRQiMMFg_",
-        title: "Firefighter mobile app (stoped)",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        src: "https://docs.google.com/uc?export=download&id=113Sp6tdOZbM-LDS4Y3eh0_4gT27PRxNr",
         theme: currentTheme
     },
     {
-        src: "https://docs.google.com/uc?export=download&id=1AFgguq7GSWb9MwC0zgO-0YqIKCUnHonW",
-        title: "Firefighter mobile app (stoped)",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
-        theme: currentTheme
-    },
-    {
-        src: "https://docs.google.com/uc?export=download&id=1K5U75qOnc_Q2VTtgRZtdC9f3WLQvFDyh",
-        title: "Firefighter mobile app (stoped)",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
-        theme: currentTheme
-    },
-    {
-        src: "https://docs.google.com/uc?export=download&id=1rL9yavBIw30l_imJbrkpc-zh0RGO_KCO",
-        title: "Firefighter mobile app (stoped)",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
+        src: "https://docs.google.com/uc?export=download&id=17OkPWAqLtTgvZ9sj-lgzIewooNjPq5Hw",
         theme: currentTheme
     }
 ];
 var galleryFireFighterApp = [
     {
         src: "https://docs.google.com/uc?export=download&id=120qeNFn_7Ws7P0OzLV2t2wP9YxGDnxHu",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1tws4fjys8XReB67Xb4OGRDrwGv5p-A-W",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1FFAYSjRJjNsSxKyINNm2IqqtekWYmbD0",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1RbuLtIZeOuClF1wi_SY14L0NEpBsdxHC",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1nnvMa8tMCqCABwIXnuolXEhRgcdywqBL",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1fpsdrxUEmpU4YrPauvQ4bfbgVb_hRuN8",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1AMb9lMq6vMNOK9VtCDW6d__C8_E0vK8r",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1Bnrb0ZOyOGflRpo87m6QcPTF-iAe7MTd",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     },
     { 
         src: "https://docs.google.com/uc?export=download&id=1w7krc2BWs06i1UgPiCNpBRsQShcfB7Xb",
-        title: "Firefighter mobile app (developpement en cours)",
-        description: "Par ABOUAR PROSPER & membres du groupe",
         theme: currentTheme
     }
 ];
@@ -137,38 +93,26 @@ var galleryFireFighterApp = [
 var galleryCovidWeb = [
     {
         src: "https://docs.google.com/uc?export=download&id=1ybzAiVgF3ByPev2Btz_xU8RXWR7BsGt-",
-        title: "Covid Stats Web App",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=1ynfzcC2IEkALuAYgEltXlwxcODKB3ozb",
-        title: "Covid Stats Web App",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=125HwK5W0aov2Hv5VT3tB-LWxlRIPaPxv",
-        title: "Covid Stats Web App",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=1FIXWJg4ryCULxMm0RPGflIDIccpvWwpC",
-        title: "Covid Stats Web App",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=1uXJLUEPR0o5TeDIBjC77kSLM7FbePo9E",
-        title: "Covid Stats Web App",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=1jWcNEf13vSFe8tTkCrf_Kk4yTvViXb8Q",
-        title: "Covid Stats Web App",
-        description: "Par ABOUAR PROSPER, DONALD & SIME EXCEL",
         theme: currentTheme 
     }
 ];
@@ -176,20 +120,14 @@ var galleryCovidWeb = [
 var galleryHouseUI = [
     {
         src: "https://docs.google.com/uc?export=download&id=19e-o69kNRpo49Gf7XdEhOu6zqLJNqlbP",
-        title: "Property rent - Prototype (Adobe XD)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=19-okyL6iMuNJYdBGhn_IkCSmED7WBSm1",
-        title: "Property rent - Prototype (Adobe XD)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme 
     },
     {
         src: "https://docs.google.com/uc?export=download&id=1btbEjbbwGGvEiwgGqF3IH0kWG2U3bB6x",
-        title: "Property rent - Prototype (Adobe XD)",
-        description: "Par ABOUAR PROSPER",
         theme: currentTheme 
     }
 ];
