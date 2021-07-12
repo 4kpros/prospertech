@@ -138,6 +138,9 @@ var filterCards = document.getElementsByClassName("my__work__card__container");
 var workCardButtonMores = document.getElementsByClassName("my__work__item__look_text");
 var navBar = document.getElementsByClassName("my__navbar__theme__change");
 
+var messagelInput = document.getElementById("message");
+var emailInput = document.getElementById("email");
+
 var buttonTheme = document.getElementById("my__nav__theme__toggle");
 var currentTheme = "black";
 
@@ -220,3 +223,85 @@ var changeCurrentTheme = function(){
 
 //Check button for theme change
 buttonTheme.addEventListener('click', changeCurrentTheme, false);
+
+//Validation functions
+function validationMail(){
+    var form = document.getElementById("form__contact");
+    var email = document.getElementById("email").value;
+    var patternEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var textEmailError = document.getElementById("textEmail");
+
+    if(email.match(patternEmail)){
+        form.classList.remove("invalidForm");
+        form.classList.add("validForm");
+        // textEmailError.innerHTML = "Email valide !";
+        textEmailError.innerHTML = "";
+        textEmailError.style.color = "#3ad10d";
+    }else{
+        form.classList.remove("validForm");
+        form.classList.add("invalidForm");
+        textEmailError.innerHTML = "Email non valide !";
+        textEmailError.style.color = "#ff8800";
+    }
+}
+function validationMessage(){
+    var form = document.getElementById("form__contact");
+    var message = textarea.value;
+    var textMessageError = document.getElementById("textMessage");
+    var lengSms = 25;
+    if(message.length >= lengSms){
+        form.classList.remove("invalidForm");
+        form.classList.add("validForm");
+        // textMessageError.innerHTML = "Message valide !";
+        textMessageError.innerHTML = "";
+        textMessageError.style.color = "#3ad10d";
+    }else{
+        form.classList.remove("validForm");
+        form.classList.add("invalidForm");
+        textMessageError.innerHTML = "Entrez un message d'au moins "+lengSms+" caracteres !";
+        textMessageError.style.color = "#ff8800";
+    }
+}
+
+var textarea = document.getElementById('textareamessage');
+textarea.onkeyup = function ()
+{
+    var form = document.getElementById("form__contact");
+    var message = textarea.value;
+    var textMessageError = document.getElementById("textMessage");
+    var lengSms = 25;
+    if(message.length >= lengSms){
+        form.classList.remove("invalidForm");
+        form.classList.add("validForm");
+        // textMessageError.innerHTML = "Message valide !";
+        textMessageError.innerHTML = "";
+        textMessageError.style.color = "#3ad10d";
+    }else{
+        form.classList.remove("validForm");
+        form.classList.add("invalidForm");
+        textMessageError.innerHTML = "Entrez un message d'au moins "+lengSms+" caracteres !";
+        textMessageError.style.color = "#ff8800";
+    }
+};
+
+function tryToSendSms(){
+    alert("Sending !");
+    var isSuccessfull = false;
+    if(isSuccessfull == true){
+        //
+    }else{
+        //
+    }
+}
+var buttonContact = document.getElementById('button__contact');
+buttonContact.onclick = function ()
+{
+    validationMail();
+    validationMessage();
+    var invalidForms = document.getElementsByClassName('invalidForm');
+    if (invalidForms.length <= 0) {
+        //Send Sms
+        tryToSendSms();
+    }
+    return false;
+};

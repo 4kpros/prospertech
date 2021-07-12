@@ -27,6 +27,9 @@
 .form__input__type:hover{
     border-color: var(--first-color);
 }
+.form__input__type:focus{
+    border-color: var(--first-color);
+}
 .form__input__message {
     min-height: 46px;
     height: 156px;
@@ -36,10 +39,18 @@
     border-radius: .5em;
     outline: 0;
     margin-top: 5px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     font-weight: var(--small-font-weight);
 }
 .form__input__message:hover{
     border-color: var(--first-color);
+}
+.form__input__message:focus{
+    border-color: var(--first-color);
+}
+.form__error{
+    margin: 5px;
 }
 .my-card__contact__button{
     margin-top: 1em;
@@ -54,15 +65,19 @@
         rgba(255, 136, 0, .6)
     );
     font-weight: var(--normal-font-weight);
+    border: 0;
+    box-shadow: none;
 }
 .my-card__contact__button:hover{
     color: var(--text-hint-color);
     background: linear-gradient(
         130deg, 
         rgba(255, 136, 0, .9),
-        rgba(255, 136, 0, .6));
+        rgba(255, 136, 0, .6)
+    );
+    border: 0;
+    box-shadow: none;
 }
-
 .form__input__user_name{
     margin-top: 2rem;
     font-weight: var(--small-font-weight);
@@ -73,22 +88,10 @@
         min-height: 46px;
         height: 156px;
         width: 70%;
-        padding: 0 16px;
-        border: 2px solid #ddd;
-        border-radius: .5em;
-        font-family: var(--body-font);
-        outline: 0;
-        margin-top: 20px;
     }
     .form__input__type {
         min-height: 46px;
         height: 46px;
         width: 70%;
-        padding: 0 16px;
-        border: 2px solid #ddd;
-        border-radius: .5em;
-        font-family: var(--body-font);
-        outline: 0;
-        margin-top: 20px;
     }
 }

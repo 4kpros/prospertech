@@ -292,27 +292,27 @@
                     </h2>
                     <div class="my-section__line__render"></div>
                 </div>
-                <div class="my-section__container">
-                    <div class="my-card__contact__glass">
-                        <form id="form__contact">
-                            <div class="mb-3">
-                              <input type="email" class="form__input__type form__input__user_name" aria-describedby="userNameHelp" placeholder=""><br>
-                              <label for="form__input__user_name" class="form__label">Nom d'utilisateur</label>
-                            </div>
-                            <div class="mb-3">
-                              <input type="email" class="form__input__type form__input__mail" aria-describedby="emailHelp" placeholder=""><br>
-                              <label for="form__input__mail" class="form__label">Adresse mail</label>
-                            </div>
-                            <div class="mb-3">
-                              <input type="email" class="form__input__type form__input__subject" aria-describedby="subjectHelp" placeholder=""><br>
-                              <label for="form__input__subject" class="form__label">Sujet</label>
-                            </div>
-                            <div class="mb-3">
-                              <textarea form="form__contact" class="form__input__message" placeholder=""></textarea><br>
-                              <label for="form__input__message" class="form__label">Message</label>
-                            </div>
-                            <a type="submit" href="#" class="my-card__button">Envoyer</a>
-                          </form>
+                <div class="row">
+                    <div class="my-section__container">
+                        <div class="my-card__contact__glass">
+                            <form id="form__contact" class="invalidForm">
+                                <div class="mb-3">
+                                    <input type="email" id="email" onkeyup="validationMail()" class="form__input__type form__input__mail" aria-describedby="emailHelp" placeholder="Email">
+                                    <br>
+                                    <span id="textEmail" class="form__error"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form__input__type form__input__subject" aria-describedby="subjectHelp" placeholder="Sujet">
+                                    <br>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea id="textareamessage" class="form__input__message" placeholder="Message"></textarea>
+                                    <br>
+                                    <span id="textMessage" class="form__error"></span>
+                                </div>
+                                <button type="submit" id="button__contact" class="my-card__contact__button">Envoyer</a>
+                              </form>
+                        </div>
                     </div>
                 </div>
             </section>
