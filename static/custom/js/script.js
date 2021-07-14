@@ -236,7 +236,7 @@ function validationMail(){
         form.classList.add("validForm");
         // textEmailError.innerHTML = "Email valide !";
         textEmailError.innerHTML = "";
-        textEmailError.style.color = "#3ad10d";
+        // textEmailError.style.color = "#3ad10d";
     }else{
         form.classList.remove("validForm");
         form.classList.add("invalidForm");
