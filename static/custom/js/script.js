@@ -254,7 +254,7 @@ function validationMessage(){
         form.classList.add("validForm");
         // textMessageError.innerHTML = "Message valide !";
         textMessageError.innerHTML = "";
-        textMessageError.style.color = "#3ad10d";
+        // textMessageError.style.color = "#3ad10d";
     }else{
         form.classList.remove("validForm");
         form.classList.add("invalidForm");
@@ -275,7 +275,7 @@ textarea.onkeyup = function ()
         form.classList.add("validForm");
         // textMessageError.innerHTML = "Message valide !";
         textMessageError.innerHTML = "";
-        textMessageError.style.color = "#3ad10d";
+        // textMessageError.style.color = "#3ad10d";
     }else{
         form.classList.remove("validForm");
         form.classList.add("invalidForm");
