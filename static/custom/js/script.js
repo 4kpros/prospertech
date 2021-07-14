@@ -285,7 +285,7 @@ textarea.onkeyup = function ()
 };
 
 function tryToSendSms(){
-    alert("Sending !");
+    alert("Formulaire non acheve !");
     var isSuccessfull = false;
     if(isSuccessfull == true){
         //
